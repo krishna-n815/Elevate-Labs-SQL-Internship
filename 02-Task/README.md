@@ -1,10 +1,10 @@
 # task_2
-📚 Library Database SQL Script
+Library Database SQL Script
 
-📌 Objective:
+Objective:
 This SQL script creates and manages a simple Library database for storing and updating book information. It demonstrates various SQL operations including CREATE, INSERT, UPDATE, DELETE, and SELEC
 
-🗃 Table Created:
+Table Created:
 Library
 Column	Data Type	Description
 BookID	INTEGER	Primary Key
@@ -15,7 +15,7 @@ YearPublished	INTEGER	Year of publication
 Genre	TEXT	Book genre
 Price	REAL	Price of the book
 
-🛠 Operations Performed:
+Operations Performed:
 1. Insert Records: 5 book records added, some with missing values (NULL).
 2. Update Operations:
 Filled missing Author and Publisher for BookID 2.
@@ -30,5 +30,5 @@ Deleted books where Price > 20.
 5. View Final Data:
 Selected and displayed remaining books.
 
-📎 Files Attached:
+Files Attached:
 library_script.sql – Contains all the SQL commands from creating the table to displaying final results.
